@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/1-first.css">
+
+    <title>MTN clone</title>
+</head>
+
+<body>
+    <div class="hearder">
+        <div class="logo-container">
+            <div class="logo">
+                <a>
+                    <img src="images/learning.png" alt="logo">
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="airtime_card" class="px-1g-4">
+        <div id="buy_data_card">
+
+
+            <div id="airtime_card" class="px-lg-4">
+                <div id="buy_data_card" class="">
+                    <div class="flex-col px-lg-5" style="
+                    padding: 2rem;
+                    border-radius: 22px;
+                    margin-bottom: 3rem;
+                    box-shadow: 0 5px #ffcb05, 2px 10px 20px rgba(0, 0, 0, 0.3);
+                  ">
+                        <div class="text-center mb-2 mt-lg-4">
+                            <p class="data-text">You are out of data</p>
+                        </div>
+                        <div class="text-center charge-mrgn">
+                            <p class="recharge-text" style="opacity: 0.5">
+                                Recharge and get back to browsing
+                            </p>
+                        </div>
+                        <div class="flex btn-mrgn" style="
+                      justify-content: space-evenly;
+                      margin-left: auto;
+                      margin-right: auto;
+                    ">
+                            <div class="mr-4">
+                                <button class="flex data-button" style="justify-content: center; align-items: center" id="btnData" onclick="buyData('data')">
+                                    <p class="white button-text">Buy Data</p>
+                                </button>
+                            </div>
+                            <div>
+                                <button class="flex airtime-button" style="justify-content: center; align-items: center" id="btnAirtime" onclick="buyData('airtime')">
+                                    <p class="white button-text">Buy Airtime</p>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="flex domore-container">
+                            <div class="more-line-mrgn" style="
+                        width: 30%;
+                        height: 1.21px;
+                        border: 1px solid #e8e8e8;
+                      "></div>
+                            <div>
+                                <p class="recharge-text" style="text-align: center; white-space: nowrap">
+                                    Do more on MTN
+                                </p>
+                            </div>
+                            <div class="more-line-mrgn-alt" style="
+                        width: 30%;
+                        height: 1.21px;
+                        border: 1px solid #e8e8e8;
+                      "></div>
+                        </div>
+                        <div class="flex mb-2" style="justify-content: space-evenly">
+                            <div class="flex ayoba-container">
+                                <div class="mr-3" style="width: 100%">
+                                    <button class="mtnlite-button" onclick="window.open('https:\/\/mymtnlite.com.gh', '_blank')">
+                                        <div class="flex" style="
+                              justify-content: space-between;
+                              align-items: start;
+                            ">
+                                            <div class="mr-2">
+                                                <img class="mtnbuttonicon" src="/icons/mtn-lite.svg">
+                                            </div>
+                                            <div class="truncate-desc">
+                                                <p class="white manage-text-alt" style="color: #202020; text-align: left">
+                                                    View more bundle offers
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div style="width: 100%">
+                                    <button class="ayoba-button" onclick="window.open('https:\/\/i.ayo.ba/YgBb/749a61bf', '_blank')">
+                                        <div class="flex" style="
+                              justify-content: space-between;
+                              align-items: start;
+                            ">
+                                            <div class="mr-2">
+                                                <img class="mtnbuttonicon" src="/icons/ayoba.svg">
+                                            </div>
+                                            <div class="truncate-desc">
+                                                <p class="white manage-text-alt hide-sm" style="color: #202020; text-align: left">
+                                                    Send a message with zero data
+                                                </p>
+                                                <p class="white manage-text-alt show-sm" style="color: #202020; text-align: left">
+                                                    Message with zero data
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
