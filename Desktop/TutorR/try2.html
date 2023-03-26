@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile Card</title>
+    <style>
+        .profile-card {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px 0 0 15px;
+        }
+
+        .profile-details {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .name {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .title {
+            margin: 10px 0;
+            font-size: 24px;
+        }
+
+        .description {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .book-session-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            background-color: #2ecc71;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .book-session-btn:hover {
+            background-color: #27ae60;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .profile-card {
+                flex-direction: column;
+                border-radius: 0;
+            }
+
+            .profile-image img {
+                border-radius: 15px 15px 0 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-card">
+        <div class="profile-image">
+            <img src="https://i.imgur.com/7jPxrJh.jpg" alt="profile image">
+        </div>
+        <div class="profile-details">
+            <h2 class="name">Jane Doe</h2>
+            <p class="title">Math Tutor</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non ipsum vel ante sodales lobortis vitae eu neque.</p>
+            <button class="book-session-btn">Book Session</button>
+        </div>
+    </div>
+
+
+</body></html>

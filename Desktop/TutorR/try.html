@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile Card</title>
+    <style>
+        .profile-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-img {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+}
+
+.profile-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-info {
+  flex: 2;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-info h2 {
+  margin-top: 0;
+}
+
+.rating {
+  margin-top: 10px;
+}
+
+.star {
+  color: #FFD700;
+}
+
+.rating-count {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.feedback {
+  margin-top: 20px;
+}
+
+.feedback h3 {
+  margin-top: 0;
+}
+
+.feedback ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.feedback li {
+  margin-bottom: 10px;
+}
+
+.book-session {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #FFD700;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.book-session:hover {
+  background-color: #F9A602;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <div class="profile-card">
+  <div class="profile-img">
+    <img src="https://via.placeholder.com/150" alt="Profile Image">
+  </div>
+  <div class="profile-info">
+    <h2>John Doe</h2>
+    <p>Math Tutor</p>
+    <div class="rating">
+      <span class="star">&#9733;</span>
+      <span class="star">&#9733;</span>
+      <span class="star">&#9733;</span>
+      <span class="star">&#9733;</span>
+      <span class="star">&#9734;</span>
+      <span class="rating-count">(4.0)</span>
+    </div>
+    <div class="feedback">
+      <h3>Feedback from students:</h3>
+      <ul>
+        <li>"John is an excellent teacher. He has helped me improve my grades significantly."</li>
+        <li>"I highly recommend John as a tutor. He is very patient and knowledgeable."</li>
+        <li>"Thanks to John's help, I was able to pass my math exams with flying colors."</li>
+      </ul>
+    </div>
+    <button class="book-session">Book a Session</button>
+  </div>
+</div>
+
+
+</body></html>
